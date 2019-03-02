@@ -48,7 +48,6 @@ function validateForm() {
 </script>
 </head>
 <body>
-
 <form name="myForm" action="" method="POST" enctype ="multipart/form-data" onsubmit="return validateForm()">  
   PicID:<br>
   <input type="text" name="picID" value="" />   
@@ -58,7 +57,7 @@ function validateForm() {
   <input type = "file"  name = "uploadfile"  />
   <br><br>
   <input type="submit" name="submit" value="Update" />
-  
+ 
 </form> 
 
 </body>
