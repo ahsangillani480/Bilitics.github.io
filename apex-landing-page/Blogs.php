@@ -180,20 +180,46 @@ $result1= mysqli_fetch_assoc($data1);
 				<br> for generating attention-grabbing ideas</p>
 			
 			<?php
-			     $num=6;
-	             while($num)
+			$num=3;
+	        while($num)
 	        {
-			?>
 				<div class="gallery">
 				  <a target="_blank" href="img_5terre.jpg">
 					<img src="img/BPA.jpg" alt="Cinque Terre" width="600" height="400">
 				  </a>
 				  <div class="desc"><h3 style="color:blue">CRM Services</h3>Add a description of the image here  Mohsin Ali Shah Haider ALi shah Mohsin Ali Shah Haider ALi shah</div>
 				</div>
-			<?php
 				$num--;
 			}
 			?>
+
+			<div class="gallery">
+			  <a target="_blank" href="img_forest.jpg">
+				<img src="img/BPA1.jpg" alt="Forest" width="600" height="400">
+			  </a>
+			  <div class="desc"><h3 style="color:blue">Web Development</h3>Add a description of the image here Mohsin Ali Shah Haider ALi shah Haider ALi shah efebsalkns</div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="img_lights.jpg">
+				<img src="img/BPA2.jpg" alt="Northern Lights" width="600" height="400">
+			  </a>
+			  <div class="desc"><h3 style="color:blue">Mobile Application</h3>Add a description of the image here Haider ALi shah Haider ALi shah jbd  bsbc   skjbkja</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="img_lights.jpg">
+				<img src="img/BPA2.jpg" alt="Northern Lights" width="600" height="400">
+			  </a>
+			  <div class="desc"><h2>Study Blogs</h2>Add a description of the image here</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="img_lights.jpg">
+				<img src="img/BPA2.jpg" alt="Northern Lights" width="600" height="400">
+			  </a>
+			  <div class="desc"><h2>Study Blogs</h2>Add a description of the image here</div>
+			</div>
 		</div>
 	</section>
 	<!-- End Blog Post Area -->
