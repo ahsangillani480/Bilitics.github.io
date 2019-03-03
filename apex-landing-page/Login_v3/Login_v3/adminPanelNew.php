@@ -24,6 +24,14 @@ else
   <a href="#" class="w3-bar-item w3-button"><h1>Bilitics</h1></a>
   <a href="#" class="w3-bar-item w3-button">Blogs</a>
   <a href="#" class="w3-bar-item w3-button">Portfolio</a>
+  <li class="has-sub nav-item"><a href="#"><span data-i18n="" class="menu-title">UI Kit</span></a>
+                <ul class="menu-content">
+                  <li><a href="grids.html" class="menu-item">Grid</a>
+                  </li>
+                  <li><a href="typography.html" class="menu-item">Typography</a>
+                  </li>
+                </ul>
+    </li>
   <a href="logout.php" class="w3-bar-item w3-button">LogOut</a>
 </div>
 
