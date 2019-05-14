@@ -120,7 +120,7 @@ $result1= mysqli_fetch_assoc($data1);
 <body>
 	<div id="top"></div>
 	<!-- Start Header Area -->
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-3"  style="background-image: linear-gradient(45deg,#061161, #780206); !important;overflow:visible"  >
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-3"  style="background-image: linear-gradient(45deg,#061161, #780206) !important;overflow:visible"  >
 		<a class="navbar-brand pl-5 blog" href="#home">
 			<img src="img/logo.png" class="mr-3 brand-logo" alt="logo">Bilitics
 		</a>
@@ -148,10 +148,10 @@ $result1= mysqli_fetch_assoc($data1);
 				<li class="dropdown  nav-item" style="margin-top:8px;margin-left:8px;margin-right:8px">
 					<a  href="" class="dropdown-toggle  blog " data-toggle="dropdown"><span style="margin-top:8px;font-size:0.9375rem">Blogs</span></a>
 						<ul class="dropdown-menu" style="min-width: 180px;"><!--background-image: linear-gradient(45deg,#061161, #780206);-->
-						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black;!important;font-size:0.9375rem;" href="#blog">Blogs</a></li>
-						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black;!important;font-size:0.9375rem;"href="#home">Web Development</a></li>
-						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black;!important;font-size:0.9375rem;"href="#about">Business Automation</a></li>
-						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black;!important;font-size:0.9375rem;"href="#project">CRM</a></li>
+						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black !important;font-size:0.9375rem;" href="#blog">Blogs</a></li>
+						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black !important;font-size:0.9375rem;"href="#home">Web Development</a></li>
+						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black !important;font-size:0.9375rem;"href="#about">Business Automation</a></li>
+						  <li style="margin-top:10px;margin-left:5px;"><a  style="color:black !important;font-size:0.9375rem;"href="#project">CRM</a></li>
 						</ul>
 				</li>
 				<li class="nav-item">
@@ -163,16 +163,15 @@ $result1= mysqli_fetch_assoc($data1);
 	<!-- End Header Area -->
 
 	
-	
+<!-------------------------------------------------------------------------------------------------------
+    
+Blog Post Area
 
-
-	
-
-
-     <br><br>
-	<!-- Blog Post Area -->
-	<section class="blogs py-10" id="blog">
+------------------------------------------------------------------------------------------------------------>
+	<section class="blogs py-10 mt-5" id="blog">
 		<div class="container">
+                    <div class="row">
+                    <div class="col-sm-12">
 			<h3 class="text-center black mb-4 headline">Latest Blogs</h3>
 			
 			
@@ -180,7 +179,7 @@ $result1= mysqli_fetch_assoc($data1);
 				<br> for generating attention-grabbing ideas</p>
 			
 			<?php
-			     $num=6;
+			     $num=10;
 	             while($num)
 	        {
 			?>
@@ -194,8 +193,173 @@ $result1= mysqli_fetch_assoc($data1);
 				$num--;
 			}
 			?>
+                    </div>
+                    </div>
 		</div>
 	</section>
+        
+        
+        
+<!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+<!--        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>-->
+        <div class="row">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All Blogs</li>
+              <li data-filter=".filter-app">Web-Development Blogs</li>
+              <li data-filter=".filter-card">Marketting Blogs</li>
+              <li data-filter=".filter-logo">CRM Blogs</li>
+              <li data-filter=".filter-web">Java Programming Language Blog</li>
+              <li data-filter=".filter-web">Java Programming Language Blog</li>
+              <li data-filter=".filter-web">Java Programming Language Blog</li>
+              <li data-filter=".filter-web">Java Programming Language Blog</li>
+              <li data-filter=".filter-web">Java Programming Language Blog</li>
+              <li data-filter=".filter-logo">CRM Blogs</li>
+              <li data-filter=".filter-logo">CRM Blogs</li>
+              <li data-filter=".filter-logo">CRM Blogs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/Ahsan.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+<!-- #portfolio -->
+
+
+
+	
+	
 	<!-- End Blog Post Area -->
 	<br><br><br><br><br><br>
 
